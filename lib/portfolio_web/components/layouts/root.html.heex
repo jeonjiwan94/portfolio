@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="csrf-token" content={get_csrf_token()} />
+  <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
+  <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-[#0F0F0F] text-zinc-100 overflow-hidden">
+  <!-- 전체 높이 고정 -->
+  <div class="flex h-screen">
+    <!-- 🔝 화면 최상단 가운데 고정 네비 -->
+    
+
+    <!-- Left: 고정 사이드바 (폭을 픽셀로 확정) -->
+    <!-- Left: Fixed Profile Card -->
+    <aside class="hidden md:block fixed inset-y-0
+                  left-12 md:left-16 lg:left-20      <!-- ← 창에서 살짝 띄우기 -->
+                  w-[420px] lg:w-[440px] xl:w-[460px]">
+       <div class="h-screen flex items-start justify-center pt-[96px] md:pt-[104px] lg:pt-[220px]">
+        <div class="w-[88%]">
+          <div class="relative rounded-[28px] bg-white text-zinc-900 p-6 shadow-2xl ring-1 ring-zinc-200">
+            <div class="relative h-[420px] rounded-2xl overflow-hidden
+                        bg-gradient-to-br from-orange-500 via-orange-600 to-amber-700">
+              <img src={~p"/images/profile.jpg"} alt="Profile"
+                  class="absolute inset-0 w-full h-full object-cover
+                          mix-blend-multiply grayscale contrast-125 brightness-90" />
+              <div class="absolute left-1/2 -translate-x-1/2 -bottom-6">
+                <div class="w-10 h-10 rounded-full bg-orange-500 grid place-items-center shadow-lg ring-2 ring-white">
+                  <span class="text-white text-xl">🔥</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 text-center">
+              <h1 class="text-3xl lg:text-4xl font-extrabold tracking-tight">Jiwan Jeon</h1>
+              <p class="mt-3 text-zinc-500 text-[15px] leading-6">
+                A new junior developer, a thought-provoking developer who believes that nothing is taken for granted.
+              </p>
+              <div class="mt-6 flex items-center justify-center gap-5 text-orange-500">
+                <a href="#" class="hover:text-orange-600 transition">🏀</a>
+                <a href="#" class="hover:text-orange-600 transition">🐦</a>
+                <a href="#" class="hover:text-orange-600 transition">📷</a>
+                <a href="mailto:email@example.com" class="hover:text-orange-600 transition">✉️</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+
+
+    <!-- Right: 독립 스크롤 영역 -->
+    <!-- Right: 독립 스크롤 영역 (비고정 상단 메뉴 포함) -->
+    <main class="
+      w-full
+      md:ml-[500px]   <!-- 420 + 64 + 16 -->
+      lg:ml-[544px]   <!-- 440 + 80 + 24 -->
+      xl:ml-[568px]   <!-- 460 + 80 + 28 -->
+      h-screen overflow-y-auto
+    ">
+      <div class="max-w-[860px] mx-auto px-6 lg:px-0 pt-10 pb-16">
+        <!-- ⬇️ 비고정 상단 메뉴(가운데 정렬) -->
+        <div class="mb-8">  <!-- flex/justify-center 제거 -->
+          <nav class="inline-flex items-center rounded-[24px] bg-white/5 border border-white/10 shadow-lg backdrop-blur px-4 py-2">
+            <ul class="flex items-center gap-6 text-white">
+              <!-- Home -->
+              <li>
+                <a href="#about" title="Home" data-spy-link
+                  class="block p-2 rounded-xl hover:bg-white/10 transition">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9.5z"/>
+                  </svg>
+                  <span class="sr-only">Home</span>
+                </a>
+              </li>
+              <!-- Projects -->
+              <li>
+                <a href="#projects" title="Projects" data-spy-link
+                  class="block p-2 rounded-xl hover:bg-white/10 transition">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/>
+                  </svg>
+                  <span class="sr-only">Projects</span>
+                </a>
+              </li>
+              <!-- Experience -->
+              <li>
+                <a href="#experience" title="Experience" data-spy-link
+                  class="block p-2 rounded-xl hover:bg-white/10 transition">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 12v7a2 2 0 0 1-2 2h-5v-9h7zM11 21H6a2 2 0 0 1-2-2v-7h7v9z"/>
+                    <path d="M20 7h-5.5a2.5 2.5 0 1 1 0-5H15a2 2 0 0 1 2 2v1"/>
+                    <path d="M4 7h5.5a2.5 2.5 0 1 0 0-5H9a2 2 0 0 0-2 2v1"/>
+                    <path d="M3 7h18v5H3z"/>
+                  </svg>
+                  <span class="sr-only">Experience</span>
+                </a>
+              </li>
+              <!-- Tools -->
+              <li>
+                <a href="#tools" title="Tools" data-spy-link
+                  class="block p-2 rounded-xl hover:bg-white/10 transition">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.7 6.3a4 4 0 1 0-5.66 5.66l6.36 6.36a2 2 0 0 0 2.83 0l.47-.47a2 2 0 0 0 0-2.83L12.34 8.69"/>
+                  </svg>
+                  <span class="sr-only">Tools</span>
+                </a>
+              </li>
+              <!-- Thoughts -->
+              <li>
+                <a href="#thoughts" title="Thoughts" data-spy-link
+                  class="block p-2 rounded-xl hover:bg-white/10 transition">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 20h9"/>
+                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                  </svg>
+                  <span class="sr-only">Thoughts</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 본문 -->
+        <%= @inner_content %>
+
+        <footer class="mt-10 pt-8 border-t border-zinc-800/40 text-sm text-zinc-400">
+          © <%= Date.utc_today().year %> Your Name — All rights reserved.
+        </footer>
+      </div>
+      </main>
+  </div>
+  
+</body>
+</html>
