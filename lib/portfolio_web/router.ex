@@ -14,12 +14,6 @@ defmodule PortfolioWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", PortfolioWeb do
-    pipe_through :browser
-
-    get "/", PageController, :home
-  end
-
   # Other scopes may use custom stacks.
   # scope "/api", PortfolioWeb do
   #   pipe_through :api
@@ -36,7 +30,7 @@ defmodule PortfolioWeb.Router do
 
     scope "/" do
       pipe_through :browser
-      live "/jjw", PortfolioWeb.HomeLive, :index
+      live "", PortfolioWeb.HomeLive, :index
       live_dashboard "/dashboard", metrics: PortfolioWeb.Telemetry
 
       forward "/mailbox", Plug.Swoosh.MailboxPreview
