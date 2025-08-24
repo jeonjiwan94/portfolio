@@ -30,7 +30,7 @@ defmodule PortfolioWeb.Router do
 
     scope "/" do
       pipe_through :browser
-      live "", PortfolioWeb.HomeLive, :index
+      live "/", PortfolioWeb.HomeLive, :index
       live_dashboard "/dashboard", metrics: PortfolioWeb.Telemetry
 
       forward "/mailbox", Plug.Swoosh.MailboxPreview
