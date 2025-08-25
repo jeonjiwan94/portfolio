@@ -14,6 +14,12 @@ defmodule PortfolioWeb.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/", PortfolioWeb do
+    pipe_through :browser
+
+    live "/", HomeLive, :index
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", PortfolioWeb do
   #   pipe_through :api
