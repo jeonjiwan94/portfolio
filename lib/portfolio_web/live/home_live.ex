@@ -6,38 +6,52 @@ defmodule PortfolioWeb.HomeLive do
 
   def render(assigns) do
     ~H"""
-    <section class="scroll-mt-24 space-y-3">
-      <h1 class="text-3xl font-bold">Hello, Portfolio</h1>
-      <p class="text-zinc-700">LiveView가 정상 동작 중입니다.</p>
+    <section id="about" class="space-y-4">
+      <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">Hello, Portfolio</h1>
+      <p class="text-zinc-400">LiveView가 정상 동작 중입니다.</p>
     </section>
 
-    <section id="projects" class="scroll-mt-24 space-y-3">
-      <h2 class="text-3xl font-bold">Projects</h2>
-      <div class="grid gap-4 sm:grid-cols-2">
-        <%= for i <- 1..8 do %>
-          <div class="rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm">
-            <h3 class="font-semibold">Project <%= i %></h3>
-            <p class="text-sm text-zinc-600 mt-1">설명...</p>
-          </div>
-        <% end %>
+    <section id="projects" class="mt-8">
+      <h2 class="text-2xl font-bold">Projects</h2>
+      <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
+        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
+        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
+        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
       </div>
     </section>
 
-    <section id="experience" class="scroll-mt-24 space-y-3">
-      <h2 class="text-3xl font-bold">Experience</h2>
-      <ul class="list-disc pl-5 text-zinc-700">
+    <section id="experience" class="mt-10">
+      <h2 class="text-2xl font-bold">Experience</h2>
+      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
         <li>트위니 — Backend / SRE / FSE</li>
         <li>서비스 운영 및 현장 기술지원</li>
       </ul>
     </section>
 
-    <section id="contact" class="scroll-mt-24 space-y-3">
-      <h2 class="text-3xl font-bold">Contact</h2>
-      <p class="text-zinc-700">email@example.com</p>
+    <section id="test" class="mt-10">
+      <h2 class="text-2xl font-bold">test</h2>
+      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
+        <li>test</li>
+        <li>test</li>
+      </ul>
     </section>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <section id="test" class="mt-10">
+      <h2 class="text-2xl font-bold">test</h2>
+      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
+        <li>test</li>
+        <li>test</li>
+      </ul>
+    </section>
+    <br><br><br><br><br><br><br><br>
+    <section id="test" class="mt-10">
+      <h2 class="text-2xl font-bold">test</h2>
+      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
+        <li>test</li>
+        <li>test</li>
+      </ul>
+    </section>
     """
   end
 end
