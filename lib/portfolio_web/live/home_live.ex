@@ -8,29 +8,35 @@ defmodule PortfolioWeb.HomeLive do
     ~H"""
     <section id="about" class="space-y-4">
     <h1 class="text-7xl md:text-7xl font-extrabold tracking-tight">JUNIOR</h1>
-    <h1 class="text-7xl text-gray-500 md:text-7xl font-extrabold tracking-tight">ENGINEER</h1>
-      <p class="text-zinc-400">특유의 사교성과 빠른 적응력을 바탕으로 맡은 바 업무에 책임감을 갖고 임하겠습니다.</p>
-      <p class="text-zinc-400">주어진 역할에 최선을 다해 팀과 회사에 기여하겠습니다.</p>
-    </section>
-
-    <section id="projects" class="mt-8">
-      <h2 class="text-2xl font-bold">Projects</h2>
-      <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
-        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
-        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
-        <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5">설명…</div>
-      </div>
-    </section>
+    <h1 class="text-7xl text-gray-500 md:text-7xl font-extrabold tracking-tight">ENGINEER</h1><br>
+      <p class="text-zinc-400 text-xl">특유의 사교성과 빠른 적응력을 바탕으로 맡은 바 업무에 책임감을 갖고 임하겠습니다.
+      주어진 역할에 최선을 다해 팀과 회사에 기여하겠습니다.</p>
+    </section><br>
 
     <section id="experience" class="mt-10">
       <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">지금까지</h1><br>
-      <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">경험</h1>
+      <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">경험</h1><br><br>
 
       <h1 class="text-3xl md:text-3xl font-extrabold tracking-tight">FSE</h1><br>
       <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">현장 로봇 세팅 및 유지보수를 담당했고, SRE와 Backend 경험을 활용해 A/S 관리 페이지 유지보수도 병행했습니다.
       C 기반 자율주행 엔진(TCT)을 활용한 로봇 세팅과 파라미터 조정을 단독으로 책임했으며, A/S 관리 페이지는 한 달 운영 후 전담 조직에 인계되는 과정까지 참여했습니다.
       </h1><br>
+
+      <div class="ml-4 ">
+        <h2 class="text-xl font-bold">담당 사이트</h2>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
+          <p>메인 담당 사이트(초기세팅)</p><br>
+          <p>세종시립도서관, 아가방, 송월타월, 롯데글로벌로지스, 오현 물류, 코엑스 박물관 행사(1회), 광명역(LLM), ETRI 융합기술연구생산센터(LLM)</p>
+          </div>
+
+          <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
+          <p>그 외 유지보수 사이트</p><br>
+          <p>팀프레시, 대전지하상가, 용마로지스, 세종 스마트빌리지 등등...</p>
+          </div>
+        </div>
+      </div><br>
+
       <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2023.11 ~ 2024.12</h1><br>
 
       <h1 class="text-3xl md:text-3xl font-extrabold tracking-tight">SRE</h1><br>
@@ -47,30 +53,118 @@ defmodule PortfolioWeb.HomeLive do
       <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2021.11.26 – 2021.12.24</h1><br>
     </section>
 
-    <section id="tool" class="mt-10">
+    <section id="tools" class="mt-16">
       <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">프리미엄</h1><br>
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">도구</h1>
-      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
-        <li>test</li>
-        <li>test</li>
-      </ul>
+
+      <!-- 그리드 레이아웃 -->
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Elixir -->
+    <div class="flex items-center gap-4">
+      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+        <img
+          src="https://elixir-lang.org/images/logo/logo.png"
+          alt="Elixir"
+          class="h-[32px] w-[32px] object-contain"
+        />
+      </div>
+      <div>
+        <p class="text-xl font-semibold text-white">Elixir</p>
+        <p class="text-sm text-zinc-400 leading-snug">
+          백엔드 &amp; Phoenix<br />
+          LiveView 개발
+        </p>
+      </div>
+    </div>
+
+    <!-- GitHub -->
+    <div class="flex items-center gap-4">
+      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+        <img
+          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          alt="GitHub"
+          class="h-[32px] w-[32px] object-contain"
+        />
+      </div>
+      <div>
+        <p class="text-xl font-semibold text-white">GitHub</p>
+        <p class="text-sm text-zinc-400 leading-snug">
+          소스 코드 버전 관리
+        </p>
+      </div>
+    </div>
+
+    <!-- Slack -->
+    <div class="flex items-center gap-4">
+      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+        <img
+          src="https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png"
+          alt="Slack"
+          class="h-[32px] w-[32px] object-contain"
+        />
+      </div>
+      <div>
+        <p class="text-xl font-semibold text-white">Slack</p>
+        <p class="text-sm text-zinc-400 leading-snug">
+          팀 커뮤니케이션 &amp; 협업
+        </p>
+      </div>
+    </div>
+
+    <!-- Notion -->
+    <div class="flex items-center gap-4">
+      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+        <img
+          src="https://framerusercontent.com/images/iP5FTKjb84EsPLiEwbrAY7NEy44.png"
+          alt="Notion"
+          class="h-[32px] w-[32px] object-contain"
+        />
+      </div>
+      <div>
+        <p class="text-xl font-semibold text-white">Notion</p>
+        <p class="text-sm text-zinc-400 leading-snug">
+          문서 관리
+        </p>
+      </div>
+    </div>
+
+    <!-- ChatGPT -->
+    <div class="flex items-center gap-4">
+      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+        <img
+          src="https://framerusercontent.com/images/MViiiLyIvL8tvy7d1XtOsM32o.png"
+          alt="ChatGPT"
+          class="h-[32px] w-[32px] object-contain"
+        />
+      </div>
+      <div>
+        <p class="text-xl font-semibold text-white">ChatGPT</p>
+        <p class="text-sm text-zinc-400 leading-snug">
+          AI 어시스턴트
+        </p>
+      </div>
+    </div>
+        </div>
     </section>
-    <br><br><br><br><br><br><br><br>
-    <section id="test" class="mt-10">
-      <h2 class="text-2xl font-bold">test</h2>
-      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
-        <li>test</li>
-        <li>test</li>
-      </ul>
+    <br><br><br>
+    <section id="contat" class="mt-10">
+      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">연락처</h1><br>
+      <div class="ml-4 ">
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
+          <p>전화번호</p><br>
+          <p>010 - 9109 - 9450</p><br>
+          </div>
+
+          <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
+          <p>이메일</p><br>
+          <p>jeonjiwan94@gmail.com</p>
+          </div>
+        </div>
+      </div><br>
     </section>
-    <br><br><br><br><br><br><br><br>
-    <section id="test" class="mt-10">
-      <h2 class="text-2xl font-bold">test</h2>
-      <ul class="mt-3 list-disc pl-5 text-zinc-400 space-y-1">
-        <li>test</li>
-        <li>test</li>
-      </ul>
-    </section>
+
     """
   end
 end

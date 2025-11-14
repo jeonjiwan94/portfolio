@@ -15,7 +15,11 @@ module.exports = {
     extend: {
       colors: {
         brand: "#FD4F00",
-      }
+      },
+      fontFamily: {
+        // 기본 sans 폰트 스택을 Pretendard로 설정
+        sans: ["Pretendard Variable","Pretendard", "system-ui", "sans-serif"],
+      },
     },
   },
   plugins: [
