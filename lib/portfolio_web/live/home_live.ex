@@ -63,13 +63,13 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
                     <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Leslie Alexander</div>
-                      <div class="text-gray-600 dark:text-gray-400">@lesliealexander</div>
+                      <div class="font-semibold text-gray-900 dark:text-white">문형철</div>
+                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
                     </div>
                   </figcaption>
                 </figure>
@@ -77,7 +77,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Anim sit consequat culpa commodo eu do nisi commodo ut aute aliqua. Laborum esse duis tempor consectetur officia mollit fugiat. Exercitation qui elit minim minim quis fugiat ex.”</p>
+                    <p>“피드백 멘트.”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -91,7 +91,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Consequatur ut atque. Itaque nostrum molestiae id veniam eos cumque.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -105,7 +105,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Excepteur consectetur deserunt id incididunt veniam mollit officia sint qui aute duis sit cillum. Reprehenderit fugiat amet aliqua in commodo minim sunt laborum.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -119,7 +119,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Distinctio facere aliquam est qui atque sint molestias ad. Fuga consequuntur asperiores voluptatum ipsum.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -133,7 +133,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Nam nesciunt dolorem dolor asperiores sint. Incidunt molestiae quis deleniti vitae ut in earum delectus iusto.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -147,7 +147,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -161,7 +161,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Aliquid dolore praesentium ratione. Cumque ea officia repellendus laboriosam. Vitae quod id explicabo non sunt.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
@@ -175,7 +175,7 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.”</p>
+                    <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
