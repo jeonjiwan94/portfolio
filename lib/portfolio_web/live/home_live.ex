@@ -58,6 +58,7 @@ defmodule PortfolioWeb.HomeLive do
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">동료</h1><br>
           <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">피드백</h1><br><br>
+          <p class="text-zinc-400 text-xl">“아래 피드백은 함께 일했던 동료들에게 직접 부탁드려 받은 실제 후기입니다."</p>
           <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
             <div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
