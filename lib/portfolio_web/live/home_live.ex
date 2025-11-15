@@ -67,7 +67,6 @@ defmodule PortfolioWeb.HomeLive do
                     <p>“피드백 멘트”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
                     <div>
                       <div class="font-semibold text-gray-900 dark:text-white">문형철</div>
                       <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
@@ -78,13 +77,12 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트.”</p>
+                    <p>“전지완님은 팀 구성에서 제일 중요한 팀 리크루팅을 하는데 탁월했습니다. 특히 자율적 환경에서 강력한 피플웨어 강점을 보여주며, 이는 혁신의 기초가 되곤 합니다.”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
                     <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Michael Foster</div>
-                      <div class="text-gray-600 dark:text-gray-400">@michaelfoster</div>
+                      <div class="font-semibold text-gray-900 dark:text-white">이성철</div>
+                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀장</div>
                     </div>
                   </figcaption>
                 </figure>
@@ -213,7 +211,7 @@ defmodule PortfolioWeb.HomeLive do
       <div>
         <p class="text-xl font-semibold text-white">Elixir</p>
         <p class="text-sm text-zinc-400 leading-snug">
-          백엔드 &amp; Phoenix<br />
+          풀스택 &amp; Phoenix<br />
           LiveView 개발
         </p>
       </div>
