@@ -104,13 +104,12 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
+                    <p>“AMR 자율주행·관제·서비스를 모두 다루는 드문 멀티플레이어형 로봇 SW 엔지니어로, 기본기와 성장 잠재력이 뛰어남. 오래 함께하지 못한 것이 아쉬울 만큼 팀에 큰 가치를 줄 인재임 ”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
                     <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Lindsay Walton</div>
-                      <div class="text-gray-600 dark:text-gray-400">@lindsaywalton</div>
+                      <div class="font-semibold text-gray-900 dark:text-white">정은상</div>
+                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기실지원 팀장</div>
                     </div>
                   </figcaption>
                 </figure>
