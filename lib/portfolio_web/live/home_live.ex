@@ -53,144 +53,214 @@ defmodule PortfolioWeb.HomeLive do
       <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2021.11.26 – 2021.12.24</h1><br>
     </section>
 
-    <section id="review" class="mt-16">
+    <section
+      id="review"
+      class="
+        mt-16
+        md:-ml-14  md:w-[calc(100%+416px)]
+        lg:-ml-14  lg:w-[calc(100%+456px)]
+        xl:-ml-14 xl:w-[calc(100%+496px)]
+      "
+    >
       <div class="py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">동료</h1><br>
-          <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">피드백</h1><br><br>
-          <p class="text-zinc-400 text-xl">“아래 피드백은 함께 일했던 동료들에게 직접 부탁드려 받은 내용입니다."</p>
-          <div class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-            <div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">문형철</div>
-                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“전지완님은 팀 구성에서 제일 중요한 팀 리크루팅을 하는데 탁월했습니다. 특히 자율적 환경에서 강력한 피플웨어 강점을 보여주며, 이는 혁신의 기초가 되곤 합니다.”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">이성철</div>
-                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀장</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“AMR 자율주행·관제·서비스를 모두 다루는 드문 멀티플레이어형 로봇 SW 엔지니어로, 기본기와 성장 잠재력이 뛰어남. 오래 함께하지 못한 것이 아쉬울 만큼 팀에 큰 가치를 줄 인재임 ”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">정은상</div>
-                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀장</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“SRE 팀에서 함께 근무하며 엘릭서(Elixir) 기반 개발과 서비스 운영 업무를 협업했습니다.
-전지완님은 타 팀과의 원활한 소통과 기획 단계 참여를 통해 요구사항을 명확히 정리하고 방향성을 조율하는 데 큰 도움을 주었습니다.
-탁월한 커뮤니케이션 능력과 폭넓은 개발 지식을 바탕으로 문제 해결에 항상 적극적이었으며, 복잡한 상황에서도 침착하게 해결책을 찾아 안정적인 서비스 운영에 기여했습니다.
-협업 능력과 기술 이해도가 뛰어난 엔지니어로서 자신 있게 추천드립니다”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">송찬희</div>
-                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀원</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
+        <!-- 상단 타이틀 -->
+        <div class="mx-auto max-w-5xl px-6 lg:px-8 text-center">
+          <h1 class="text-7xl md:text-7xl font-extrabold tracking-tight">동료</h1>
+          <h2 class="mt-2 text-7xl md:text-7xl font-extrabold tracking-tight text-gray-500">
+            피드백
+          </h2>
+          <p class="mt-8 text-zinc-400 text-lg md:text-xl">
+            아래 피드백은 함께 일했던 동료들에게 직접 요청해 받은 실제 후기입니다.
+          </p>
+        </div>
 
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“중요한 프로젝트나 현장 업무를 믿고 맡길 수 있는 믿음직한 팀원, SW 관련 업무뿐 만 아니라 현장에서의 셋업 및 고객 소통에 능함”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">민선홍</div>
-                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀원</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Tom Cook</div>
-                      <div class="text-gray-600 dark:text-gray-400">@tomcook</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Whitney Francis</div>
-                      <div class="text-gray-600 dark:text-gray-400">@whitneyfrancis</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Leonard Krasner</div>
-                      <div class="text-gray-600 dark:text-gray-400">@leonardkrasner</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Floyd Miles</div>
-                      <div class="text-gray-600 dark:text-gray-400">@floydmiles</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
+        <!-- ================= 카드 리스트 영역 ================= -->
+        <!-- ✅ 수정 1: max-w-* 제거 → 섹션 가로폭을 전부 사용 -->
+        <div class="mx-auto mt-16 px-4 lg:px-0">
+        <!--  원래: class="mx-auto mt-16 max-w-6xl px-4 lg:px-0"  -->
+
+          <!-- ✅ 수정 2: 3컬럼 masonry
+              - 모바일: 1열
+              - sm 이상: 2열
+              - lg 이상: 3열 -->
+          <div class="columns-1 sm:columns-2 lg:columns-3 gap-8">
+          <!--  원래: class="columns-1 md:columns-2 gap-8" -->
+
+            <!-- 문형철 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>“피드백 멘트”</p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">문형철</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 이성철 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “전지완님은 팀 구성에서 가장 중요한 리크루팅에 탁월한 역량을 보였습니다.
+                  자율적인 환경에서 강력한 피플웨어 강점을 보여 주며, 이는 혁신의 기초가 됩니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이성철</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 정은상 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “AMR 자율주행·관제·서비스를 모두 다루는 드문 멀티플레이어형 로봇 SW 엔지니어로,
+                  기본기와 성장 잠재력이 뛰어납니다. 오래 함께하지 못한 것이 아쉬울 만큼 팀에
+                  큰 가치를 줄 인재입니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">정은상</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 송찬희 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “SRE 팀에서 함께 근무하며 엘릭서(Elixir) 기반 개발과 서비스 운영 업무를 협업했습니다.
+                  전지완님은 타 팀과의 원활한 소통과 기획 단계 참여를 통해 요구사항을 명확히 정리하고
+                  방향성을 조율하는 데 큰 도움을 주었습니다. 탁월한 커뮤니케이션 능력과 폭넓은 개발
+                  지식을 바탕으로 문제 해결에 항상 적극적이었으며, 복잡한 상황에서도 침착하게
+                  해결책을 찾아 안정적인 서비스 운영에 기여했습니다. 협업 능력과 기술 이해도가
+                  뛰어난 엔지니어로서 자신 있게 추천드립니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">송찬희</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 민선홍 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “중요한 프로젝트나 현장 업무를 믿고 맡길 수 있는 팀원입니다.
+                  SW 관련 업무뿐만 아니라 현장에서의 셋업 및 고객 소통에도 강점을 보였습니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">민선홍</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 최 선 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “같이 일했던 동료들 중 AMR 하드웨어 셋업, 서비스 셋업 및 변경, 파라미터 튜닝을
+                  단독으로 진행할 수 있을 정도로 유능한 인재였습니다. 다양한 변수 발생 상황에서도
+                  뛰어난 소통 능력으로 가장 믿음직한 동료였습니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">최 선</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)트위니 현장기술지원 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 한승완 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “업무 전반에서 긍정적인 사고방식이 돋보이며, 단순히 “잘될 것”이라는 막연한 낙관이 아니라 현실적인 상황을 정확히 이해한 뒤,
+                  가능한 해결 방향을 중심으로 사고하고 행동하는 태도를 갖추고 있습니다. 문제를 회피하지 않고 직면하면서도, 주어진 조건 속에서 가장 실행 가능한 방안을 찾기 위해 적극적으로 움직이는 모습이 인상적이었습니다.
+                  또한 다양한 분야에 대한 호기심과 폭넓은 관심을 바탕으로 새로운 관점과 아이디어를 제시하여 조직 내 논의의 폭을 넓히는 데
+                  기여할 수 있을 것이라 생각됩니다. 이러한 다각도적 관심과 열린 사고는 업무 문제 해결 과정에서해당 조직의 역량 확장에 긍정적 영향을 미칠 수 있을 것이라 기대됩니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">한승완</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 IP팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 심상우 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “중요한 프로젝트와 현장 업무를 믿고 맡길 수 있는 팀원입니다. 소프트웨어 개발은 물론, 실제 현장에서의 장비 셋업과 고객 커뮤니케이션에도 능숙해 프로젝트 전반을 안정적으로 이끌어줍니다.
+                  팀원들과 적극적이고 주도적으로 협력하며 원만한 관계를 유지하는 데에도 강점이 있고, 문제를 직접 정의하고 실험·테스트하며 해결책을 찾아가는 실행력 역시 매우 뛰어납니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">심상우</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 연구개발자</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 최윤희 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "저는 백엔드 엔지니어로서 현장에서 발생한 문제 해결을 위해 지완님과 소통할 일이 잦았습니다. 그럴 때마다, 지완님은 복잡한 문제 상황을 잘 이해할 수 있도록
+                  많은 컨텍스트가 담긴 정보를 전달해주셨습니다. 또한, 소통 과정에서도 자연스럽게 대화해 주셔서 협업 내내 편안했습니다. 덕분에 현장 이슈를 빠르게 이해하고 대응할 수 있었습니다. "
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">최윤희</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 백엔드개발자</div>
+                </div>
+              </figcaption>
+            </figure>
+
           </div>
         </div>
+        <!-- ==================================================== -->
       </div>
     </section>
+
+
+
 
 
     <section id="tools" class="mt-16">
