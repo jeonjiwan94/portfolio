@@ -253,6 +253,40 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 방호영 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "피드백 멘트"
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">방호영</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 영업1팀 팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 준혁님 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "피드백 멘트"
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">준혁님</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 백엔드 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
           </div>
         </div>
         <!-- ==================================================== -->
