@@ -270,7 +270,7 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
-            <!-- 준혁님 -->
+            <!-- 이준혁님 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
             >
@@ -281,8 +281,60 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">준혁님</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이준혁님</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 백엔드 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 이명환 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "다른 팀의 의견을 경청하고 중립적인 시각으로 조율하여 모두가 납득하는 결론을 도출하는 데 기여했습니다.
+                  이러한 소통 능력 덕분에 프로젝트를 성공적으로 마무리할 수 있었습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이명환</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 사업지원팀</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 김진경 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "피드백 멘트"
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김진경</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 이사</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 도영훈 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "전지완님은 같이 프로젝트 하는 사람들과 소통이 잘합니다.또한 일적으로 뿐만 아니라 사적으로도 사람들과 잘지내는 동료였던거 같습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">도영훈</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 앱개발자</div>
                 </div>
               </figcaption>
             </figure>
