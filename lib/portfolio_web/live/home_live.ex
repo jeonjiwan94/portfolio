@@ -90,26 +90,12 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
-                  </blockquote>
-                  <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
-                    <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Dries Vincent</div>
-                      <div class="text-gray-600 dark:text-gray-400">@driesvincent</div>
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
-                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
-                  <blockquote class="text-gray-900 dark:text-gray-100">
                     <p>“AMR 자율주행·관제·서비스를 모두 다루는 드문 멀티플레이어형 로봇 SW 엔지니어로, 기본기와 성장 잠재력이 뛰어남. 오래 함께하지 못한 것이 아쉬울 만큼 팀에 큰 가치를 줄 인재임 ”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
                     <div>
                       <div class="font-semibold text-gray-900 dark:text-white">정은상</div>
-                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기실지원 팀장</div>
+                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀장</div>
                     </div>
                   </figcaption>
                 </figure>
@@ -117,13 +103,29 @@ defmodule PortfolioWeb.HomeLive do
               <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
                   <blockquote class="text-gray-900 dark:text-gray-100">
-                    <p>“피드백 멘트”</p>
+                    <p>“SRE 팀에서 함께 근무하며 엘릭서(Elixir) 기반 개발과 서비스 운영 업무를 협업했습니다.
+전지완님은 타 팀과의 원활한 소통과 기획 단계 참여를 통해 요구사항을 명확히 정리하고 방향성을 조율하는 데 큰 도움을 주었습니다.
+탁월한 커뮤니케이션 능력과 폭넓은 개발 지식을 바탕으로 문제 해결에 항상 적극적이었으며, 복잡한 상황에서도 침착하게 해결책을 찾아 안정적인 서비스 운영에 기여했습니다.
+협업 능력과 기술 이해도가 뛰어난 엔지니어로서 자신 있게 추천드립니다”</p>
                   </blockquote>
                   <figcaption class="mt-6 flex items-center gap-x-4">
-                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="size-10 rounded-full bg-gray-50 dark:bg-gray-800" />
                     <div>
-                      <div class="font-semibold text-gray-900 dark:text-white">Courtney Henry</div>
-                      <div class="text-gray-600 dark:text-gray-400">@courtneyhenry</div>
+                      <div class="font-semibold text-gray-900 dark:text-white">송찬희</div>
+                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀원</div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <div class="pt-8 sm:inline-block sm:w-full sm:px-4">
+                <figure class="rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/2.5">
+                  <blockquote class="text-gray-900 dark:text-gray-100">
+                    <p>“중요한 프로젝트나 현장 업무를 믿고 맡길 수 있는 믿음직한 팀원, SW 관련 업무뿐 만 아니라 현장에서의 셋업 및 고객 소통에 능함”</p>
+                  </blockquote>
+                  <figcaption class="mt-6 flex items-center gap-x-4">
+                    <div>
+                      <div class="font-semibold text-gray-900 dark:text-white">민선홍</div>
+                      <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀원</div>
                     </div>
                   </figcaption>
                 </figure>
