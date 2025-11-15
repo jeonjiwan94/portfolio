@@ -31,7 +31,7 @@
   </header>
 
   <!-- 2) 메인 래퍼: 하나의 컨테이너 안에 좌/우 두 div (flex) -->
-  <main class="mx-auto max-w-[1440px] 2xl:max-w-[1600px] px-6 lg:px-10 py-10">
+  <main class="mx-auto max-w-[1440px] 2xl:max-w-[1600px] px-6 lg:px-5 py-10">
     <div class="flex flex-col md:flex-row md:items-start md:gap-x-14 gap-y-10 ">
 
       <!-- ⬅️ 왼쪽: 프로필 카드 (폭 고정, 본문과 같은 y라인에서 시작) -->
@@ -45,18 +45,28 @@
 
 
           <div class="mt-8 text-center">
-            <h1 class="text-3xl lg:text-4xl font-extrabold tracking-tight">Jiwan Jeon</h1>
-            <p class="mt-3 text-zinc-500 text-[15px] leading-6">
-              A new junior ENGINEER, a thought-provoking ENGINEER who believes that nothing is taken for granted.
+            <p class="text-[11px] font-semibold tracking-[0.25em] text-brand uppercase">
+              ABOUT ME
             </p>
-            <div class="mt-6 flex items-center justify-center gap-5 text-orange-500">
-              <a href="https://www.instagram.com/jeonjiwan94/" class="hover:text-orange-600 transition">🅾 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦</a>
-              <a href="https://www.facebook.com/jeonjiwan94" class="hover:text-orange-600 transition">𝐟 Facebook</a>
-              <a href="https://peridot-sunset-9a1.notion.site/FSE-CS-13b4b7a3e2758020abefe3c88c5f1397?source=copy_link" class="hover:text-orange-600 transition">📝 Portfolio</a>
-              <a href="mailto:email@example.com" class="hover:text-orange-600 transition"></a>
+            <h1 class="mt-2 text-3xl lg:text-4xl font-extrabold tracking-tight text-zinc-900">Jiwan Jeon</h1>
+            <p class="mt-4 text-[15px] leading-7 text-zinc-800 text-left">
+              저는 새로운 도전을 즐기며, 어떤 환경에서도 맡은 일에 최선을 다하는 엔지니어입니다.  
+              같은 로봇·AMR 분야에서는 기존 경험을 바탕으로 어떻게 더 큰 가치를 낼 수 있을지 고민하고,  
+              다른 영역에서도 지금까지의 경험을 활용해 빠르게 구조를 이해하고 적응합니다.  
+              개발자·SRE·로봇 필드 엔지니어를 모두 경험하며  
+              개발부터 서비스 운영, 현장까지 이어지는 전체 흐름을 몸으로 익혔습니다.  
+              이 경험을 바탕으로 새로운 팀에서도 빠르게 전력을 보태고,  
+              동료들과 적극적으로 소통하며 실질적인 결과를 만드는 엔지니어로 기여하고 싶습니다.
+            </p>
+            <div class="mt-6 flex flex-wrap items-center justify-center gap-4 text-[13px] font-medium text-orange-500">
+              <a href="https://www.instagram.com/jeonjiwan94/" target="_blank" class="hover:text-orange-600 transition">🅾 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦</a>
+              <a href="https://www.facebook.com/jeonjiwan94" target="_blank" class="hover:text-orange-600 transition">𝐟 Facebook</a>
+              <a href="https://peridot-sunset-9a1.notion.site/FSE-CS-13b4b7a3e2758020abefe3c88c5f1397?source=copy_link" target="_blank" class="hover:text-orange-600 transition">📝 Portfolio</a>
+              <a href="mailto:email@example.com" target="_blank" class="hover:text-orange-600 transition"></a>
             </div>
           </div>
         </div>
+        
       </div>
 
       <!-- ➡️ 오른쪽: 본문 컨텐츠 -->

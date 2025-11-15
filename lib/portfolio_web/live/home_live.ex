@@ -208,6 +208,25 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+             <!-- 이다솜 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “다각도의 업무 스킬을 갖추고 있는 것은 물론, 일과 동료를 대하는 태도가 훌륭합니다.
+                  지완님의 밝은 에너지와 긍정적인 태도는 팀이 어려운 상황일 때마다 큰 빛을 발했습니다. 새로운 일을 배우는 것에 늘 적극적이며,
+                  힘든 일이 생긴 곳에 마다하지 않고 먼저 달려와 줄 것이라 믿을 수 있는 동료입니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이다솜</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 PO</div>
+                </div>
+              </figcaption>
+            </figure>
+
             <!-- 한승완 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
@@ -515,6 +534,8 @@ defmodule PortfolioWeb.HomeLive do
     <br><br><br>
     <section id="contat" class="mt-10">
       <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">연락처</h1><br>
+      <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">LET'S MAKE IT HAPPEN</h1><br><br>
+
       <div class="ml-4 ">
         <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
