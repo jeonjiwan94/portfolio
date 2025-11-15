@@ -86,6 +86,22 @@ defmodule PortfolioWeb.HomeLive do
           <div class="columns-1 sm:columns-2 lg:columns-3 gap-8">
           <!--  원래: class="columns-1 md:columns-2 gap-8" -->
 
+            <!-- 김재성 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>“피드백 멘트”</p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김재성</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+
             <!-- 문형철 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
@@ -138,6 +154,38 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+             <!-- 강우성 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>“홍보담당 입장에서 현장 인력과의 소통과 협업은 이슈를 발굴하고, 고객을 포함한 관심있는 이들의 눈길을 끌기 위한 필수적 요소입니다.
+                    전지완님은 홍보담당에게 필요한 현장의 분위기와 사람들이 관심있어하는 요소를 파악하는데 큰 도움을 주었고, 또 현장에서 받은 의견을 공유해 더 나은 결과물로 발전하는데 큰 피드백이 되었습니다.
+                    특히 용마로지스, 팀프레시와 같은 현장에서 로봇을 활용한 물류자동화와 관련 입체적이고 체감도 높은 홍보물을 도출하고 이를 통한 외부의 관심을 받아내는데 최적의 동료이자 큰 도움이 된 인재였습니다. ”</p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">강우성</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 홍보팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 장민경 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>“항상 적극적으로 소통하시고, 풍부한 현장 경험을 통한 뛰어난 상황 판단 능력, 긍정적인 에너지 덕분에 현장 업무가 보다 원활하게 진행되는 데 큰 도움이 된다고 느꼈습니다.”</p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">장민경</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 로봇 SW 개발자</div>
+                </div>
+              </figcaption>
+            </figure>
+
             <!-- 송찬희 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
@@ -156,43 +204,6 @@ defmodule PortfolioWeb.HomeLive do
                 <div>
                   <div class="font-semibold text-gray-900 dark:text-white">송찬희</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀원</div>
-                </div>
-              </figcaption>
-            </figure>
-
-            <!-- 민선홍 -->
-            <figure
-              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
-            >
-              <blockquote class="text-gray-900 dark:text-gray-100">
-                <p>
-                  “중요한 프로젝트나 현장 업무를 믿고 맡길 수 있는 팀원입니다.
-                  SW 관련 업무뿐만 아니라 현장에서의 셋업 및 고객 소통에도 강점을 보였습니다.”
-                </p>
-              </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">민선홍</div>
-                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀원</div>
-                </div>
-              </figcaption>
-            </figure>
-
-            <!-- 최 선 -->
-            <figure
-              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
-            >
-              <blockquote class="text-gray-900 dark:text-gray-100">
-                <p>
-                  “같이 일했던 동료들 중 AMR 하드웨어 셋업, 서비스 셋업 및 변경, 파라미터 튜닝을
-                  단독으로 진행할 수 있을 정도로 유능한 인재였습니다. 다양한 변수 발생 상황에서도
-                  뛰어난 소통 능력으로 가장 믿음직한 동료였습니다.”
-                </p>
-              </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">최 선</div>
-                  <div class="text-gray-600 dark:text-gray-400">(현)트위니 현장기술지원 팀원</div>
                 </div>
               </figcaption>
             </figure>
@@ -276,7 +287,9 @@ defmodule PortfolioWeb.HomeLive do
             >
               <blockquote class="text-gray-900 dark:text-gray-100">
                 <p>
-                  "피드백 멘트"
+                  "전지완님은 제가 트위니에서 함께 일하며 그 책임감과 성실함을 높이 평가했던 팀원입니다.
+                    전지완님의 가장 큰 장점은 맡은 일에 대한 굳건한 책임감과 뛰어난 실행력입니다. 화려하게 자신을 드러내기보다, 부여된 목표를 달성하기 위해 묵묵히 그리고 꾸준히 노력하는 자세는 타의 모범이 되었습니다.
+                    또한, 팀의 성공을 자신의 성공만큼 중요하게 여기며 팀워크를 최우선으로 하셨습니다. 팀원 간의 소통을 원활하게 하고, 때로는 분위기 메이커로서, 때로는 조언자로서 팀의 시너지를 극대화하는 데 탁월한 능력을 보여주었습니다."
                 </p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
@@ -322,6 +335,43 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 박은지 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "저는 품질보증팀에서 여러 부서와 협업하며 업무를 진행해왔습니다. 그 과정에서 타 부서의 지완님은 전문적인 개발 지식과 현장 경험을 바탕으로 실질적인 의견을 제시해 주셔서 많은 도움을 받았습니다.
+                    업무의 핵심을 빠르게 파악하고 여러 부서와 원활하게 소통할 수 있는 분입니다.
+                    전문성과 책임감을 겸비하고 계셔 함께 일할때 든든한 동료였습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">박은지</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 품질보증팀</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 민선홍 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “중요한 프로젝트나 현장 업무를 믿고 맡길 수 있는 팀원입니다.
+                  SW 관련 업무뿐만 아니라 현장에서의 셋업 및 고객 소통에도 강점을 보였습니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">민선홍</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
             <!-- 도영훈 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
@@ -335,6 +385,25 @@ defmodule PortfolioWeb.HomeLive do
                 <div>
                   <div class="font-semibold text-gray-900 dark:text-white">도영훈</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 앱개발자</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 최 선 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  “같이 일했던 동료들 중 AMR 하드웨어 셋업, 서비스 셋업 및 변경, 파라미터 튜닝을
+                  단독으로 진행할 수 있을 정도로 유능한 인재였습니다. 다양한 변수 발생 상황에서도
+                  뛰어난 소통 능력으로 가장 믿음직한 동료였습니다.”
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">최 선</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)트위니 현장기술지원 팀원</div>
                 </div>
               </figcaption>
             </figure>
