@@ -289,7 +289,8 @@ defmodule PortfolioWeb.HomeLive do
             >
               <blockquote class="text-gray-900 dark:text-gray-100">
                 <p>
-                  "피드백 멘트"
+                  "고객이 빠르게 실사용을 할 수 있고, 사용시 문제가 없게끔 최대한 현장을 세심하게 살피면서 기술적인 난관들을 개발부서와 조율하여 해결하는데 많은 도움을 주셨습니다.
+                  어려운 환경 속에서도 늘 긍정적으로 고객 대응을 해 주시고 설치에 임해주셨던 분으로 감사하게 생각하고 있습니다."
                 </p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
