@@ -337,6 +337,26 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 서아로 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "다른 팀으로 만나 큰 업무접점이 없었음에도 아래와 같은 강점을 가졌던 동료였습니다.<br>
+                    - 적극적이며 문제를 해결하려는 태도<br>
+                    - 사교적이고 관계 지향적인 의사소통<br>
+                    만약 함께 일을 하게 될 때에도 기쁘게 협업할 믿음직스러운 동료입니다. "
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">서아로</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 전략기획팀</div>
+                </div>
+              </figcaption>
+            </figure>
+
             <!-- 김진경 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
