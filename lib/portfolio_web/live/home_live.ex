@@ -301,6 +301,47 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 이창훈 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "지완님과 함께 일하며 인상 깊었던 점은 문제 상황을 빠르게 인지하고 팀원들과 열린 소통으로 해결책을 찾아가는 태도였습니다.
+                    현장 로봇 셋업부터 개발-운영까지 연결되는 흐름을 몸으로 익힌 만큼, 기술적 이해도뿐 아니라 실제 서비스 맥락에서의 실행력과 협업감이 매우 뛰어났습니다.
+                    앞으로도 어떤 환경에서든 팀과 조직에 큰 자산이 될 것이라 확신합니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이창훈</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 앱 팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 박주현 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "지완님과 현장기술지원팀에서 함께 일하며 느낀 그대로를 말씀드리고 싶습니다.
+                    저에게 지완님은 늘 믿음을 주는 동료였습니다. 중요한 프로젝트나 긴급한 기술 지원 상황에서도 흔들림 없이 차분하게 상황을 조율하고 정리하며 언제라도 안정적으로 이끌어가는 모습이 특히 인상적이었던 사람 이었습니다.
+                    현장에서 발생하는 다양한 변수 속에서도 지완님은 문제를 정확히 파악하고 적절한 해결 방안을 제시하는 능력이 뛰어났습니다.
+                    또한 관련 부서, 고객사, 협력업체 등 여러 이해 관계자들과의 소통 과정에서 불필요한 갈등 없이 부드럽게 의견을 조율해 현장 분위기를 긍정적으로 유지하는 데도 징검다리 역할을 했습니다.
+                    제가 바라본 지완님의 가장 큰 강점은 단순히 일을 잘하는 것을 넘어 기술 이슈가 발생했을 때도 감정에 흔들리지 않고 솔선수범하여 해결 방향을 잡아주어 팀원들이 신뢰하고 따라갈 수 있는 환경을 만들어주는 잔잔한 리더십도 기억에 남습니다.
+                    "
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">박주현</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원팀 동료</div>
+                </div>
+              </figcaption>
+            </figure>
+
             <!-- 이준혁님 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
