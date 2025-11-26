@@ -91,7 +91,11 @@ defmodule PortfolioWeb.HomeLive do
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
             >
               <blockquote class="text-gray-900 dark:text-gray-100">
-                <p>“피드백 멘트”</p>
+                <p>"자율주행 로봇 분야는 기구, 전장, 펌웨어, 주행S/W, 백엔드, 프론트엔드, 미들웨어 등 복잡하고 다양한 기술 스텍이 필요합니다.
+                그렇다보니 개발된 제품을 가지고 현장에서 설치/유지보수를 함에 있어서도 매우 폭넓은 배경 지식과 대응을 요합니다.
+                보통 C/S에서는 전통적으로 중요시되고 있는 H/W 파트 테크라고 생각되는데, 실제로 현장에서는 H/W 만큼이나 S/W 적인 역량이 필요합니다.
+                지완님이 강점을 갖고 있는 S/W 파트 테크가 얼마만큼 향후 AI나 Physical AI의 분야에서 필요한 지 알 수 있었습니다.
+                개발에서 현장까지 다양한 경험을 바탕으로 좋은 인재로 점차적으로 성장해나갈 것이라 기대되는 분이었습니다."</p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
@@ -107,7 +111,8 @@ defmodule PortfolioWeb.HomeLive do
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
             >
               <blockquote class="text-gray-900 dark:text-gray-100">
-                <p>“피드백 멘트”</p>
+                <p>“핵심 키워드: 추진력, 긍정, 사교성
+                항상 긍정적인 자세와 특유의 높은 사교성으로 주변 동료와 원만한 관계를 유지해요. 이런 관계를 활용해서 빠른 실행력과 추진력을 보여줘요”</p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
