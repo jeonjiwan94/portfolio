@@ -122,6 +122,50 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 김진경 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "전지완님은 밝고 긍정적인 태도로 회사 분위기를 따뜻하게 만드는 데 큰 역할을 했습니다.
+                  긴급하게 진행되는 프로젝트에서 맡은 업무를 책임 있게 끝까지 완수하며 성실함을 보여주었습니다.
+                  새로운 환경에 빠르게 적응하려는 의지도 인상적이었고,
+                  짧은 시간이었지만 협업 과정에서 필요한 소통을 꾸준히 이어가려는 모습도 확인할 수 있었습니다.
+                  다양한 팀에서 좋은 영향을 줄 수 있는 자질을 갖고 있습니다. "
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김진경</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 이사</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 안재영 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "지완님은 추진력과 밝은 에너지로 팀에 좋은 영향을 주는 동료입니다.
+                  Golang 기반 관제 서버 개발을 수행하며 복잡한 요구사항을 이해하고,
+                  필요한 문서화 작업까지 꼼꼼히 정리해 협업 효율을 크게 높였습니다.
+                  또한 Elixir 서버 개발과 현장 지원 경험을 통해 서비스 전반을 깊이 이해하고,
+                  다양한 이해관계자와 원활히 소통하는 능력을 보여주었습니다.
+                  긍정적이고 사교적인 성격 덕분에 동료들과의 관계도 매우 원만해 팀 분위기 조성에도 큰 기여를 했습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">안재영</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 Backend 팀장</div>
+                </div>
+              </figcaption>
+            </figure>
+
+
             <!-- 이성철 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
@@ -404,22 +448,7 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
-            <!-- 김진경 -->
-            <figure
-              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
-            >
-              <blockquote class="text-gray-900 dark:text-gray-100">
-                <p>
-                  "피드백 멘트"
-                </p>
-              </blockquote>
-              <figcaption class="mt-6 flex items-center gap-x-4">
-                <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">김진경</div>
-                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 이사</div>
-                </div>
-              </figcaption>
-            </figure>
+
 
             <!-- 박은지 -->
             <figure
