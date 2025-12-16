@@ -628,7 +628,7 @@ defmodule PortfolioWeb.HomeLive do
         </div>
     </section>
     <br><br><br>
-    <section id="contat" class="mt-10">
+    <section id="contact" class="mt-10">
       <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">연락처</h1><br>
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">LET'S MAKE IT HAPPEN</h1><br><br>
 
