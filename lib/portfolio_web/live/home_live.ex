@@ -111,7 +111,7 @@ defmodule PortfolioWeb.HomeLive do
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
             >
               <blockquote class="text-gray-900 dark:text-gray-100">
-                <p>“핵심 키워드: 추진력, 긍정, 사교성
+                <p>“핵심 키워드: 추진력, 긍정, 사교성<br>
                 항상 긍정적인 자세와 특유의 높은 사교성으로 주변 동료와 원만한 관계를 유지해요. 이런 관계를 활용해서 빠른 실행력과 추진력을 보여줘요”</p>
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
@@ -386,7 +386,7 @@ defmodule PortfolioWeb.HomeLive do
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
                   <div class="font-semibold text-gray-900 dark:text-white">박주현</div>
-                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원팀 동료</div>
+                  <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원팀 팀원</div>
                 </div>
               </figcaption>
             </figure>
