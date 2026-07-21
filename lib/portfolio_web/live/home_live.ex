@@ -7,7 +7,7 @@ defmodule PortfolioWeb.HomeLive do
   def render(assigns) do
     ~H"""
     <section id="about" class="space-y-4">
-    <h1 class="text-7xl md:text-7xl font-extrabold tracking-tight">JUNIOR</h1>
+    <h1 class="text-7xl md:text-7xl font-extrabold tracking-tight">FIELD</h1>
     <h1 class="text-7xl text-gray-500 md:text-7xl font-extrabold tracking-tight">ENGINEER</h1><br>
       <p class="text-zinc-400 text-xl">특유의 사교성과 빠른 적응력을 바탕으로 맡은 바 업무에 책임감을 갖고 임하겠습니다.
       주어진 역할에 최선을 다해 팀과 회사에 기여하겠습니다.</p>
@@ -17,13 +17,132 @@ defmodule PortfolioWeb.HomeLive do
       <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">지금까지</h1><br>
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">경험</h1><br><br>
 
-      <h1 class="text-3xl md:text-3xl font-extrabold tracking-tight">FSE</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">현장 로봇 세팅 및 유지보수를 담당했고, SRE와 Backend 경험을 활용해 A/S 관리 페이지 유지보수도 병행했습니다.
-      C 기반 자율주행 엔진(TCT)을 활용한 로봇 세팅과 파라미터 조정을 단독으로 책임했으며, A/S 관리 페이지는 한 달 운영 후 전담 조직에 인계되는 과정까지 참여했습니다.
-      </h1><br>
+      <!-- ================= Bigwave ================= -->
+      <h2 class="text-3xl md:text-3xl font-extrabold tracking-tight">BigwaveRobotics <span class="text-gray-500 text-xl font-normal">– Rass 기반 회사</span></h2>
 
-      <div class="ml-4 ">
-        <h2 class="text-xl font-bold">담당 사이트</h2>
+      <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-2xl font-bold">Humanoid Engineer</h3>
+          <span class="text-gray-500 text-lg">2026.5 ~ 현재</span>
+        </div>
+        <ul class="mt-4 space-y-3 list-disc list-inside marker:text-orange-400 text-lg font-semibold text-gray-200">
+          <li>문서화 및 체계화
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>신규 입사자를 위한 온보딩 문서화</li>
+              <li>입고/출고/검수/프로젝트 관리 등 문서화</li>
+            </ul>
+          </li>
+          <li>다양한 사이트 납품 및 프로젝트 참여
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>성균관대, 생기원, 화장품 대기업, 중공업 대기업 등</li>
+            </ul>
+          </li>
+          <li>다양한 휴머노이드 로봇 사전 검증
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>Agibot X2 &amp; G2, UBTECH S2, Robotis SG2 &amp; BG2
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>SDK 검증 및 정상 작동 확인</li>
+                  <li>고객 사용 가이드라인 작성 및 제공</li>
+                </ul>
+              </li>
+              <li>Agibot X2 내부/외부 가이드라인 문서화</li>
+              <li>Agibot X2 서비스 로봇 빠른 상품화를 위해 기능 사전 구현 및 검증</li>
+            </ul>
+          </li>
+          <li>고객사 대응
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>납품한 고객사 이슈 트래킹, 현장 방문, CS 대응</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-2xl font-bold">Field Service Engineer</h3>
+          <span class="text-gray-500 text-lg">2026.3 ~ 2026.5</span>
+        </div>
+        <ul class="mt-4 space-y-3 list-disc list-inside marker:text-orange-400 text-lg font-semibold text-gray-200">
+          <li>신규 입사자 온보딩 문서 체계 정리
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>기존 온보딩 문서의 구조적 한계를 파악하고 체계적으로 재정비</li>
+              <li>온보딩 과정을 구조화하여 신규 인력이 보다 빠르게 업무에 적응하고, 팀 전반의 기술 이해도를 높일 수 있는 기반을 마련</li>
+            </ul>
+          </li>
+          <li>가우시움 청소로봇 음성 커스터마이징 및 표준화
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>기존(default) 음성 구조를 정리하고 커스터마이징 가능한 영역을 문서화
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>외부 지원 없이도 보다 빠른 대응이 가능하도록 프로세스 개선</li>
+                  <li>반복 작업 효율 및 서비스 대응 품질 향상에 기여</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>가우시움 청소로봇 하드웨어 스펙 문서화
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>로봇 하드웨어 스펙 정보를 체계적으로 정리
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>엔지니어 및 영업 모두가 보다 일관되고 정확한 기술 대응을 할 수 있는 기반 구축</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>다수 로봇 엘리베이터 연동 시나리오 개선 제안
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>복수 로봇 운영 환경에서 필요한 시나리오를 제안하여 실제 업무 방향에 반영</li>
+              <li>향후 다양한 현장 대응에도 활용될 수 있는 방향성 제시</li>
+            </ul>
+          </li>
+          <li>팀 작업 공구 구매 및 현장 환경 정비
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>팀이 현장 작업 시 필요한 공구를 파악하고 구매하여 현장 대응 효율 개선</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ================= Twinny ================= -->
+      <h2 class="text-3xl md:text-3xl font-extrabold tracking-tight mt-14">Twinny <span class="text-gray-500 text-xl font-normal">– 자율주행 로봇 회사 · 팀원 · 2022.02 -</span></h2>
+
+      <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-2xl font-bold">Field Service Engineer</h3>
+          <span class="text-gray-500 text-lg">2023.11 ~ 2024.12</span>
+        </div>
+        <ul class="mt-4 space-y-3 list-disc list-inside marker:text-orange-400 text-lg font-semibold text-gray-200">
+          <li>현장 로봇 설치 및 유지보수
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>다양한 사이트 환경(경량렉, 하이렉)에 맞는 로봇 최적화 작업
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>주요 파라미터(OAP, TLP) 설정 및 문서화</li>
+                </ul>
+              </li>
+              <li>개발 협업 및 테스트 지원
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>여유 시간을 활용해 개발자들과 소통하며 현장 테스트 지원</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>A/S 관리 페이지 유지보수
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>현장 작업과 병행하여 유지보수 및 개선</li>
+            </ul>
+          </li>
+          <li>TCT(Twinny Chillang Tool) 프로젝트
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>C 언어 기반 자율주행 엔진을 사용한 로봇 세팅 및 유지보수
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>팀 내 소프트웨어 지식과 프로그래밍 경험이 부족한 상황에서, TCT 기반 로봇 세팅을 전담하여 처리</li>
+                  <li>TCT를 자유롭게 구사하며, 고객 요구사항에 맞게 설치하여 유지, 보수까지 맡아 진행</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h4 class="mt-6 text-xl font-bold">담당 사이트</h4>
         <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
           <p>메인 담당 사이트(초기세팅)</p><br>
@@ -32,25 +151,131 @@ defmodule PortfolioWeb.HomeLive do
 
           <div class="rounded-2xl bg-white/5 ring-1 ring-white/10 p-5 ">
           <p>그 외 유지보수 사이트</p><br>
-          <p>팀프레시, 대전지하상가, 용마로지스, 세종 스마트빌리지 등등...</p>
+          <p>팀프레시, 대전지하상가, 용마로지스, 세종 스마트빌리지 등 다수 사이트 유지보수 및 기능 개선</p>
           </div>
         </div>
-      </div><br>
+      </div>
 
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2023.11 ~ 2024.12</h1><br>
+      <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-2xl font-bold">Site Reliability Engineering</h3>
+          <span class="text-gray-500 text-lg">2023.04 ~ 2023.10</span>
+        </div>
+        <p class="mt-2 text-sm text-gray-500">주요 언어: <span class="rounded bg-white/10 px-2 py-0.5 text-gray-300">Elixir</span></p>
+        <ul class="mt-4 space-y-3 list-disc list-inside marker:text-orange-400 text-lg font-semibold text-gray-200">
+          <li>A/S 접수 페이지 개발
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>고객이 웹사이트를 통해 직접 A/S 접수 가능하도록 기능 개발
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>사진 및 동영상 첨부 기능 추가</li>
+                  <li>접수 완료 시 관리자와 고객에게 알림 메일 자동 발송 기능 구현</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>A/S 관리 페이지 개발
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>고객의 A/S 요청을 통합 관리할 수 있는 페이지 개발
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>접수 시 요청이 자동 등록되도록 설계</li>
+                  <li>관리자가 요청 상태 변경 시 고객에게 알림 메일 전송 기능 추가</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>시뮬레이션 테스트 자동화
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>서버 간 정보 교환 시퀀스를 문서화하여 프로젝트 관리
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>서버 간 주요 데이터 흐름 및 통신 시퀀스 분석 &amp; 문서화</li>
+                  <li>시퀀스를 바탕으로 시뮬레이션 자동화 스크립트를 개발하여 테스트 효율성 향상에 기여</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>AWS S3 초기 배포
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>배포 프로세스 구축 및 관리</li>
+            </ul>
+          </li>
+          <li>모니터링 솔루션 PoC (Datadog 도입 검토)
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>Golang 기반 API 서버에 Datadog 모니터링·APM 도입 가능성을 검토하기 위해 PoC를 주도</li>
+              <li>Datadog 측과 직접 커뮤니케이션하며 에이전트 설정 및 코드 수정까지 진행했으나, 당시 Golang 스택과의 호환성·효율성 이슈를 분석한 결과 전사 도입은 보류 결정</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
-      <h1 class="text-3xl md:text-3xl font-extrabold tracking-tight">SRE</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">Elixir 기반 A/S 접수와 관리 페이지를 개발하고 시뮬레이션 테스트 자동화파트에서 서버 간 정보 교환 시퀀스를 문서화하며
-      AWS S3 초기 배포하며 관리했습니다.</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2023.04 – 2023.10</h1><br>
+      <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-2xl font-bold">Backend Engineer</h3>
+          <span class="text-gray-500 text-lg">2022.02 ~ 2023.04</span>
+        </div>
+        <p class="mt-2 text-sm text-gray-500">주요 언어: <span class="rounded bg-white/10 px-2 py-0.5 text-gray-300">Golang</span></p>
+        <ul class="mt-4 space-y-3 list-disc list-inside marker:text-orange-400 text-lg font-semibold text-gray-200">
+          <li>서버 이슈 대응 및 유지보수
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>사용자 단계에서 발생하는 문제 파악 &amp; 원인 분석 후 대응
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>사용자 로그 및 시스템 로그를 수집하고 분석하여 문제 원인 식별</li>
+                  <li>문제 발생 시 초기 대응을 위한 가이드라인 작성</li>
+                </ul>
+              </li>
+              <li>팀원과 협력하여 문제 해결 도구 개발에 기여
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>이슈 트래킹 사용해 팀 간 협업을 효율적으로 관리</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>에러 문서화
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>각 에러 유형에 대해 설명과 발생 가능 시나리오 작성
+                <ul class="mt-1 ml-5 space-y-1 list-[square] list-inside text-sm text-gray-500">
+                  <li>에러 발생 원인을 엔진, 하드웨어, 네트워크, 서버 등으로 분류하여 문서화</li>
+                  <li>구체적인 대처 방법을 포함한 에러 메시지 설계 및 작성</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
-      <h1 class="text-3xl md:text-3xl font-extrabold tracking-tight">Backend</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">서버 이슈 대응 및 유지보수를 주 업무로 하였으며 에러 문서화를 했습니다.</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2022.02 – 2023.04</h1><br>
+      <!-- ================= Quantum AI (Roadpic) ================= -->
+      <h2 class="text-3xl md:text-3xl font-extrabold tracking-tight mt-14">Quantum AI <span class="text-gray-500 text-xl font-normal">(Roadpic) · 인턴 · 2021.11.26 – 2021.12.24</span></h2>
 
-      <h1 class="text-3xl md:text-3xl font-extrabold tracking-tight">Quantum AI</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">AI 기반 오프라인 매장 추천 서비스 개발했습니다. 한 달동안 맡은 파트에 기획 및 개발까지 직접 하였습니다.</h1><br>
-      <h1 class="text-xl text-gray-500 font-extrabold tracking-tight">2021.11.26 – 2021.12.24</h1><br>
+      <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-2xl font-bold">앱 서비스 개발자</h3>
+        </div>
+        <p class="mt-2 text-gray-400">AI 기반 오프라인 매장 추천 서비스 개발</p>
+        <ul class="mt-4 space-y-3 list-disc list-inside marker:text-orange-400 text-lg font-semibold text-gray-200">
+          <li>서비스 기획 및 개발
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>프로모션 관리 및 평가 관리 기능 기획에 참여</li>
+              <li>React Native에서 React.js로의 리팩토링 수행</li>
+              <li>기존 HTML/CSS 코드를 Functional Component와 Styled Component로 전환</li>
+              <li>비즈니스 관리 페이지의 레이아웃 및 기능 구현, 긴급 수정 사항 처리</li>
+            </ul>
+          </li>
+          <li>데이터 시각화
+            <ul class="mt-1 ml-5 space-y-1 list-[circle] list-inside text-base font-normal text-gray-400">
+              <li>React.js 라이브러리를 사용하여 데이터 시각화(바 차트, 막대 그래프) 구현</li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="mt-6 rounded-xl bg-white/5 ring-1 ring-white/10 p-5">
+          <h4 class="text-lg font-bold text-gray-300">📌 Achievement &amp; Insight</h4>
+          <ul class="mt-3 space-y-1 list-disc list-inside text-base text-gray-400">
+            <li><span class="font-semibold text-gray-200">Roadpic 앱 출시</span>(현재 서비스 중단)</li>
+            <li>기존 플랫폼의 한계를 분석하고 새로운 기술 스택 적용을 제안, 기술 전환에 기여</li>
+            <li>StackOverflow 등 온라인 리소스를 적극 활용하여 기술적 문제 해결</li>
+            <li>한 달간의 인턴십에도 불구하고 책임감을 갖고 프로젝트 참여</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section
@@ -628,6 +853,260 @@ defmodule PortfolioWeb.HomeLive do
         </div>
     </section>
     <br><br><br>
+
+    <section id="techstack" class="mt-16">
+      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">기술</h1><br>
+      <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">스택</h1>
+
+      <div class="mt-16 space-y-14">
+
+        <!-- Programming Languages -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">Programming Languages</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Elixir -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://elixir-lang.org/images/logo/logo.png"
+                  alt="Elixir"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Elixir</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  A/S 페이지 개발<br />
+                  유지보수 담당
+                </p>
+              </div>
+            </div>
+
+            <!-- Golang -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/go/00ADD8"
+                  alt="Golang"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Golang</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  Backend 개발 1년<br />
+                  이슈 대응 및 유지보수
+                </p>
+              </div>
+            </div>
+
+            <!-- Python -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/python/3776AB"
+                  alt="Python"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Python</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  GUI 정보 공유 툴<br />
+                  대학생 때 진행
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">Web Development</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- HTML5 -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/html5/E34F26"
+                  alt="HTML5"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">HTML5</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  Tailwind CSS<br />
+                  프레임워크 사용
+                </p>
+              </div>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/css/1572B6"
+                  alt="CSS3"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">CSS3</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  Tailwind CSS<br />
+                  프레임워크 사용
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- DevOps & Infrastructure -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">DevOps &amp; Infrastructure</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Docker -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/docker/2496ED"
+                  alt="Docker"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Docker</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  이미지화 후<br />
+                  서버 배포 경험
+                </p>
+              </div>
+            </div>
+
+            <!-- Linux -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/linux/000000"
+                  alt="Linux"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Linux</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  개발 환경에 익숙<br />
+                  기본 명령어 사용
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">Tools</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Git -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/git/F05032"
+                  alt="Git"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Git</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  소스 코드 버전 관리
+                </p>
+              </div>
+            </div>
+
+            <!-- Jira -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/jira/0052CC"
+                  alt="Jira"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Jira</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  이슈 트래킹 &amp; 프로젝트 관리
+                </p>
+              </div>
+            </div>
+
+            <!-- Confluence -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/confluence/172B4D"
+                  alt="Confluence"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Confluence</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  문서 협업 관리
+                </p>
+              </div>
+            </div>
+
+            <!-- Slack -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png"
+                  alt="Slack"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Slack</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  팀 커뮤니케이션 &amp; 협업
+                </p>
+              </div>
+            </div>
+
+            <!-- Notion -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://framerusercontent.com/images/iP5FTKjb84EsPLiEwbrAY7NEy44.png"
+                  alt="Notion"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Notion</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  문서 관리
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <br><br><br>
+
     <section id="contact" class="mt-10">
       <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">연락처</h1><br>
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">LET'S MAKE IT HAPPEN</h1><br><br>
