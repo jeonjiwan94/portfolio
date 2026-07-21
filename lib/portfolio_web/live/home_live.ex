@@ -324,7 +324,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">김재성</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김X성</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
                 </div>
               </figcaption>
@@ -341,7 +341,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">문형철</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">문X철</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 본부장</div>
                 </div>
               </figcaption>
@@ -362,7 +362,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">김진경</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김X경</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 이사</div>
                 </div>
               </figcaption>
@@ -384,7 +384,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">안재영</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">안X영</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 Backend 팀장</div>
                 </div>
               </figcaption>
@@ -403,7 +403,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">이성철</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이X철</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀장</div>
                 </div>
               </figcaption>
@@ -422,7 +422,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">정은상</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">정X상</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀장</div>
                 </div>
               </figcaption>
@@ -439,7 +439,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">강우성</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">강X성</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 홍보팀장</div>
                 </div>
               </figcaption>
@@ -454,7 +454,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">장민경</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">장X경</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 로봇 SW 개발자</div>
                 </div>
               </figcaption>
@@ -476,7 +476,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">송찬희</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">송X희</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 SRE 팀원</div>
                 </div>
               </figcaption>
@@ -495,7 +495,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">이다솜</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이X솜</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 PO</div>
                 </div>
               </figcaption>
@@ -515,7 +515,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">한승완</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">한X완</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 IP팀장</div>
                 </div>
               </figcaption>
@@ -533,7 +533,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">심상우</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">심X우</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 연구개발자</div>
                 </div>
               </figcaption>
@@ -551,7 +551,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">최윤희</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">최X희</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 백엔드개발자</div>
                 </div>
               </figcaption>
@@ -569,7 +569,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">방호영</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">방X영</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 영업1팀 팀장</div>
                 </div>
               </figcaption>
@@ -588,7 +588,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">이창훈</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이X훈</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 앱 팀장</div>
                 </div>
               </figcaption>
@@ -610,13 +610,13 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">박주현</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">박X현</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원팀 팀원</div>
                 </div>
               </figcaption>
             </figure>
 
-            <!-- 이준혁님 -->
+            <!-- 이준혁 -->
             <figure
               class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
             >
@@ -629,7 +629,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">이준혁님</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이X혁</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 백엔드 팀원</div>
                 </div>
               </figcaption>
@@ -647,7 +647,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">이명환</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이X환</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 사업지원팀</div>
                 </div>
               </figcaption>
@@ -667,7 +667,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">서아로</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">서X로</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 전략기획팀</div>
                 </div>
               </figcaption>
@@ -688,7 +688,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">박은지</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">박X지</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 품질보증팀</div>
                 </div>
               </figcaption>
@@ -706,7 +706,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">민선홍</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">민X홍</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 현장기술지원 팀원</div>
                 </div>
               </figcaption>
@@ -723,7 +723,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">도영훈</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">도X훈</div>
                   <div class="text-gray-600 dark:text-gray-400">(전)트위니 앱개발자</div>
                 </div>
               </figcaption>
@@ -742,7 +742,7 @@ defmodule PortfolioWeb.HomeLive do
               </blockquote>
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
-                  <div class="font-semibold text-gray-900 dark:text-white">최 선</div>
+                  <div class="font-semibold text-gray-900 dark:text-white">최X</div>
                   <div class="text-gray-600 dark:text-gray-400">(현)트위니 현장기술지원 팀원</div>
                 </div>
               </figcaption>
