@@ -787,7 +787,35 @@ defmodule PortfolioWeb.HomeLive do
               <figcaption class="mt-6 flex items-center gap-x-4">
                 <div>
                   <div class="font-semibold text-gray-900 dark:text-white">김X환</div>
-                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 서비스솔루션</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 서비스솔루션 선임</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 강X경 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "마케팅팀 영상PD로 마케팅 활동에 필요한 실제 현장 로봇 구동 영상과 사진 자료가 반드시 필요하기에,
+                  지완님과 긴밀히 소통해야 할 일이 점점 늘어났습니다. 로봇, 특히 휴머노이드가 필요한 현장이라면
+                  지완님과 면밀히 소통하여 휴머노이드를 어떻게 촬영하면 좋을지, 어떤 여건에서 구동하는지, 어떤
+                  콘텐츠를 탑재하여 로봇이 동작하는지 하나부터 열까지 구체적으로 논의하여 현장에 로봇을 내보내게
+                  되는데요. 로봇 마케팅에 꼭 필요한 스튜디오 콘텐츠 촬영부터 고객사를 직접 만나는 현장 가리지
+                  않고, 함께 협업해야 하는 순간마다 적극적으로 소통하여 촬영에 협조해 주셨습니다.
+                </p>
+                <p class="mt-4">
+                  덕분에 하루 종일 스튜디오에서 로봇을 동작해야 하는 날에도 무사히 촬영을 마쳤고, 마케팅 팀이
+                  직접 방문하지 못하는 현장에서도 사진, 영상자료를 촬영해 전달해 주셔서 마로솔만의 양질의
+                  콘텐츠로 가공할 수 있었습니다. 빠른 이해와 열린 소통 능력 그리고 로봇 엔지니어로서의 단단한
+                  전문성까지 탄탄하게 갖췄다는 점을 늘 확인할 수 있었습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">강X경</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 마케팅팀 선임</div>
                 </div>
               </figcaption>
             </figure>
@@ -803,129 +831,59 @@ defmodule PortfolioWeb.HomeLive do
 
 
     <section id="tools" class="mt-16">
-      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">프리미엄</h1><br>
+      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">프리미엄</h1><br>r
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">도구</h1>
-
-      <!-- 그리드 레이아웃 -->
-      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <!-- Elixir -->
-    <div class="flex items-center gap-4">
-      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-        <img
-          src="https://elixir-lang.org/images/logo/logo.png"
-          alt="Elixir"
-          class="h-[32px] w-[32px] object-contain"
-        />
-      </div>
-      <div>
-        <p class="text-xl font-semibold text-white">Elixir</p>
-        <p class="text-sm text-zinc-400 leading-snug">
-          풀스택 &amp; Phoenix<br />
-          LiveView 개발
-        </p>
-      </div>
-    </div>
-
-    <!-- GitHub -->
-    <div class="flex items-center gap-4">
-      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-        <img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-          alt="GitHub"
-          class="h-[32px] w-[32px] object-contain"
-        />
-      </div>
-      <div>
-        <p class="text-xl font-semibold text-white">GitHub</p>
-        <p class="text-sm text-zinc-400 leading-snug">
-          소스 코드 버전 관리
-        </p>
-      </div>
-    </div>
-
-    <!-- Slack -->
-    <div class="flex items-center gap-4">
-      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-        <img
-          src="https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png"
-          alt="Slack"
-          class="h-[32px] w-[32px] object-contain"
-        />
-      </div>
-      <div>
-        <p class="text-xl font-semibold text-white">Slack</p>
-        <p class="text-sm text-zinc-400 leading-snug">
-          팀 커뮤니케이션 &amp; 협업
-        </p>
-      </div>
-    </div>
-
-    <!-- Notion -->
-    <div class="flex items-center gap-4">
-      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-        <img
-          src="https://framerusercontent.com/images/iP5FTKjb84EsPLiEwbrAY7NEy44.png"
-          alt="Notion"
-          class="h-[32px] w-[32px] object-contain"
-        />
-      </div>
-      <div>
-        <p class="text-xl font-semibold text-white">Notion</p>
-        <p class="text-sm text-zinc-400 leading-snug">
-          문서 관리
-        </p>
-      </div>
-    </div>
-
-    <!-- ChatGPT -->
-    <div class="flex items-center gap-4">
-      <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-        <img
-          src="https://framerusercontent.com/images/MViiiLyIvL8tvy7d1XtOsM32o.png"
-          alt="ChatGPT"
-          class="h-[32px] w-[32px] object-contain"
-        />
-      </div>
-      <div>
-        <p class="text-xl font-semibold text-white">ChatGPT</p>
-        <p class="text-sm text-zinc-400 leading-snug">
-          AI 어시스턴트
-        </p>
-      </div>
-    </div>
-        </div>
-    </section>
-    <br><br><br>
-
-    <section id="techstack" class="mt-16">
-      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">기술</h1><br>
-      <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">스택</h1>
 
       <div class="mt-16 space-y-14">
 
-        <!-- Programming Languages -->
+        <!-- 로봇 운영 & 시스템 -->
         <div>
-          <h2 class="text-2xl font-bold text-white mb-6">Programming Languages</h2>
+          <h2 class="text-2xl font-bold text-white mb-6">로봇 운영 &amp; 시스템 <span class="text-gray-500 text-lg font-normal">(Robot Operations &amp; Systems)</span></h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <!-- Elixir -->
+            <!-- Ubuntu / Linux -->
             <div class="flex items-center gap-4">
               <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
                 <img
-                  src="https://elixir-lang.org/images/logo/logo.png"
-                  alt="Elixir"
+                  src="https://cdn.simpleicons.org/ubuntu"
+                  alt="Ubuntu"
                   class="h-[32px] w-[32px] object-contain"
                 />
               </div>
               <div>
-                <p class="text-xl font-semibold text-white">Elixir</p>
+                <p class="text-xl font-semibold text-white">Ubuntu / Linux</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  A/S 페이지 개발<br />
-                  유지보수 담당
+                  로봇 SDK 실행, 로그 확인<br />
+                  등 기본 운영 환경
                 </p>
               </div>
             </div>
+
+            <!-- ROS -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/ros"
+                  alt="ROS"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">ROS</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  기초 명령어 수준<br />
+                  토픽 모니터링 가능
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 개발 언어 -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">개발 언어 <span class="text-gray-500 text-lg font-normal">(Programming Languages)</span></h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- Golang -->
             <div class="flex items-center gap-4">
@@ -939,8 +897,26 @@ defmodule PortfolioWeb.HomeLive do
               <div>
                 <p class="text-xl font-semibold text-white">Golang</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  Backend 개발 1년<br />
-                  이슈 대응 및 유지보수
+                  Backend 1년 경험<br />
+                  유지보수·디버깅 중심
+                </p>
+              </div>
+            </div>
+
+            <!-- Elixir -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://elixir-lang.org/images/logo/logo.png"
+                  alt="Elixir"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Elixir</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  A/S 시스템 개발 경험<br />
+                  AI 협업으로 기능 추가
                 </p>
               </div>
             </div>
@@ -957,19 +933,11 @@ defmodule PortfolioWeb.HomeLive do
               <div>
                 <p class="text-xl font-semibold text-white">Python</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  GUI 정보 공유 툴<br />
-                  대학생 때 진행
+                  휴머노이드 SDK 분석 및 기능 구현<br />
+                  AI 협업으로 PoC 세팅
                 </p>
               </div>
             </div>
-
-          </div>
-        </div>
-
-        <!-- Web Development -->
-        <div>
-          <h2 class="text-2xl font-bold text-white mb-6">Web Development</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- HTML5 -->
             <div class="flex items-center gap-4">
@@ -983,8 +951,8 @@ defmodule PortfolioWeb.HomeLive do
               <div>
                 <p class="text-xl font-semibold text-white">HTML5</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  Tailwind CSS<br />
-                  프레임워크 사용
+                  사이드 프로젝트 수준<br />
+                  구조 이해 및 수정
                 </p>
               </div>
             </div>
@@ -1001,8 +969,8 @@ defmodule PortfolioWeb.HomeLive do
               <div>
                 <p class="text-xl font-semibold text-white">CSS3</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  Tailwind CSS<br />
-                  프레임워크 사용
+                  사이드 프로젝트 수준<br />
+                  스타일 이해 및 수정
                 </p>
               </div>
             </div>
@@ -1010,85 +978,25 @@ defmodule PortfolioWeb.HomeLive do
           </div>
         </div>
 
-        <!-- DevOps & Infrastructure -->
+        <!-- 문서화 & 협업 도구 -->
         <div>
-          <h2 class="text-2xl font-bold text-white mb-6">DevOps &amp; Infrastructure</h2>
+          <h2 class="text-2xl font-bold text-white mb-6">문서화 &amp; 협업 도구 <span class="text-gray-500 text-lg font-normal">(Documentation &amp; Collaboration)</span></h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <!-- Docker -->
+            <!-- Notion -->
             <div class="flex items-center gap-4">
               <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
                 <img
-                  src="https://cdn.simpleicons.org/docker/2496ED"
-                  alt="Docker"
+                  src="https://framerusercontent.com/images/iP5FTKjb84EsPLiEwbrAY7NEy44.png"
+                  alt="Notion"
                   class="h-[32px] w-[32px] object-contain"
                 />
               </div>
               <div>
-                <p class="text-xl font-semibold text-white">Docker</p>
+                <p class="text-xl font-semibold text-white">Notion</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  이미지화 후<br />
-                  서버 배포 경험
-                </p>
-              </div>
-            </div>
-
-            <!-- Linux -->
-            <div class="flex items-center gap-4">
-              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-                <img
-                  src="https://cdn.simpleicons.org/linux/000000"
-                  alt="Linux"
-                  class="h-[32px] w-[32px] object-contain"
-                />
-              </div>
-              <div>
-                <p class="text-xl font-semibold text-white">Linux</p>
-                <p class="text-sm text-zinc-400 leading-snug">
-                  개발 환경에 익숙<br />
-                  기본 명령어 사용
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Tools -->
-        <div>
-          <h2 class="text-2xl font-bold text-white mb-6">Tools</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-            <!-- Git -->
-            <div class="flex items-center gap-4">
-              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-                <img
-                  src="https://cdn.simpleicons.org/git/F05032"
-                  alt="Git"
-                  class="h-[32px] w-[32px] object-contain"
-                />
-              </div>
-              <div>
-                <p class="text-xl font-semibold text-white">Git</p>
-                <p class="text-sm text-zinc-400 leading-snug">
-                  소스 코드 버전 관리
-                </p>
-              </div>
-            </div>
-
-            <!-- Jira -->
-            <div class="flex items-center gap-4">
-              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
-                <img
-                  src="https://cdn.simpleicons.org/jira/0052CC"
-                  alt="Jira"
-                  class="h-[32px] w-[32px] object-contain"
-                />
-              </div>
-              <div>
-                <p class="text-xl font-semibold text-white">Jira</p>
-                <p class="text-sm text-zinc-400 leading-snug">
-                  이슈 트래킹 &amp; 프로젝트 관리
+                  온보딩 문서·절차서<br />
+                  팀 문서화 주도
                 </p>
               </div>
             </div>
@@ -1105,7 +1013,25 @@ defmodule PortfolioWeb.HomeLive do
               <div>
                 <p class="text-xl font-semibold text-white">Confluence</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  문서 협업 관리
+                  운영 DB 등<br />
+                  팀 문서화 주도
+                </p>
+              </div>
+            </div>
+
+            <!-- Jira -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/jira/0052CC"
+                  alt="Jira"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Jira</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  이슈 트래킹 허브
                 </p>
               </div>
             </div>
@@ -1122,24 +1048,83 @@ defmodule PortfolioWeb.HomeLive do
               <div>
                 <p class="text-xl font-semibold text-white">Slack</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  팀 커뮤니케이션 &amp; 협업
+                  팀 커뮤니케이션 허브
                 </p>
               </div>
             </div>
 
-            <!-- Notion -->
+            <!-- Git -->
             <div class="flex items-center gap-4">
               <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
                 <img
-                  src="https://framerusercontent.com/images/iP5FTKjb84EsPLiEwbrAY7NEy44.png"
-                  alt="Notion"
+                  src="https://cdn.simpleicons.org/git/F05032"
+                  alt="Git"
                   class="h-[32px] w-[32px] object-contain"
                 />
               </div>
               <div>
-                <p class="text-xl font-semibold text-white">Notion</p>
+                <p class="text-xl font-semibold text-white">Git</p>
                 <p class="text-sm text-zinc-400 leading-snug">
-                  문서 관리
+                  버전 관리 &amp; 협업
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- AI 어시스턴트 -->
+        <div>
+          <h2 class="text-2xl font-bold text-white mb-6">AI 어시스턴트 <span class="text-gray-500 text-lg font-normal">(AI Assistants)</span></h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- ChatGPT -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://framerusercontent.com/images/MViiiLyIvL8tvy7d1XtOsM32o.png"
+                  alt="ChatGPT"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">ChatGPT</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  AI 어시스턴트
+                </p>
+              </div>
+            </div>
+
+            <!-- Claude -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/claude"
+                  alt="Claude"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Claude</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  AI 어시스턴트
+                </p>
+              </div>
+            </div>
+
+            <!-- Gemini -->
+            <div class="flex items-center gap-4">
+              <div class="flex h-[60px] w-[60px] items-center justify-center rounded-2xl bg-white">
+                <img
+                  src="https://cdn.simpleicons.org/googlegemini"
+                  alt="Gemini"
+                  class="h-[32px] w-[32px] object-contain"
+                />
+              </div>
+              <div>
+                <p class="text-xl font-semibold text-white">Gemini</p>
+                <p class="text-sm text-zinc-400 leading-snug">
+                  AI 어시스턴트
                 </p>
               </div>
             </div>
