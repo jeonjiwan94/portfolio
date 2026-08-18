@@ -18,7 +18,7 @@ defmodule PortfolioWeb.HomeLive do
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">경험</h1><br><br>
 
       <!-- ================= Bigwave ================= -->
-      <h2 class="text-3xl md:text-3xl font-extrabold tracking-tight">BigwaveRobotics <span class="text-gray-500 text-xl font-normal">– Rass 기반 회사</span></h2>
+      <h2 class="text-3xl md:text-3xl font-extrabold tracking-tight">BigwaveRobotics <span class="text-gray-500 text-xl font-normal">– Raas 기반 회사</span></h2>
 
       <div class="mt-6 rounded-2xl bg-white/5 ring-1 ring-white/10 p-6">
         <div class="flex flex-wrap items-baseline justify-between gap-2">
@@ -304,11 +304,16 @@ defmodule PortfolioWeb.HomeLive do
         <div class="mx-auto mt-16 px-4 lg:px-0">
         <!--  원래: class="mx-auto mt-16 max-w-6xl px-4 lg:px-0"  -->
 
+          <!-- ================= Twinny ================= -->
+          <h3 class="text-3xl md:text-3xl font-extrabold tracking-tight text-white">
+            Twinny <span class="text-gray-500 text-lg font-normal">– 자율주행 로봇 회사</span>
+          </h3>
+
           <!-- ✅ 수정 2: 3컬럼 masonry
               - 모바일: 1열
               - sm 이상: 2열
               - lg 이상: 3열 -->
-          <div class="columns-1 sm:columns-2 lg:columns-3 gap-8">
+          <div class="mt-8 columns-1 sm:columns-2 lg:columns-3 gap-8">
           <!--  원래: class="columns-1 md:columns-2 gap-8" -->
 
             <!-- 김재성 -->
@@ -744,6 +749,45 @@ defmodule PortfolioWeb.HomeLive do
                 <div>
                   <div class="font-semibold text-gray-900 dark:text-white">최X</div>
                   <div class="text-gray-600 dark:text-gray-400">(현)트위니 현장기술지원 팀원</div>
+                </div>
+              </figcaption>
+            </figure>
+
+          </div>
+
+          <!-- ================= BigwaveRobotics ================= -->
+          <h3 class="mt-16 text-3xl md:text-3xl font-extrabold tracking-tight text-white">
+            BigwaveRobotics <span class="text-gray-500 text-lg font-normal">– Raas 기반 회사</span>
+          </h3>
+
+          <div class="mt-8 columns-1 sm:columns-2 lg:columns-3 gap-8">
+
+            <!-- 김X환 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "지완님은 단순히 주어진 체계에 빠르게 적응하는 것을 넘어, 스스로 체계를 정립할 수 있는 능력을 지닌 분이었습니다.
+                  새롭게 기획된 팀에 합류하여 필드 엔지니어의 업무 체계를 정립하는 과정에서 온보딩 자료를 직접 작성하고,
+                  기존 체계에 추가로 필요한 업무 프로세스를 정립하며 팀의 완성도를 한 단계 높이는 모습이 특히 인상적이었습니다.
+                </p>
+                <p class="mt-4">
+                  또한 지완님은 뛰어난 현장 대응력을 갖춘 분입니다. 뛰어난 소프트웨어 지식과 다양한 현장 경험을 바탕으로,
+                  중요한 프로젝트에서 고객이 긴급하게 요청하는 상황에서도 흔들림 없이 상황을 조율하고 항상 최선의 방법을 제시하여
+                  안정적으로 마무리하는 능력이 돋보였습니다. 어렵고 힘든 프로젝트일수록 끝까지 책임지고 결과를 만들어내는 책임감 또한
+                  지완님의 큰 강점입니다.
+                </p>
+                <p class="mt-4">
+                  제가 바라본 지완님의 가장 큰 매력은, 동료들의 어려움을 외면하지 않고 함께 해결 방법을 고민하고 제시해주는
+                  태도였습니다. 이런 모습 덕분에 동료들이 자연스럽게 신뢰하고 따라갈 수 있는, 믿음직한 리더십을 가진 분이라고
+                  생각합니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김X환</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 서비스솔루션</div>
                 </div>
               </figcaption>
             </figure>
