@@ -820,6 +820,103 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 유X관 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "지완님은 입사 직후부터 팀의 개선이 필요한 부분을 빠르게 파악하고, 이를 직접 개선하거나
+                  적극적으로 의견을 제안하는 빠른 판단력과 높은 추진력을 보여주셨습니다.
+                </p>
+                <p class="mt-4">
+                  특히 입사자가 처음 접하는 온보딩 자료의 개선부터 로봇 관리 방식, 로봇 문서의 체계화 등
+                  입사한 지 한 달이 채 되지 않은 시점에도 팀의 업무 환경과 프로세스를 세심하게 살펴보고
+                  개선점을 찾아주셨습니다. 단순히 문제를 발견하는 데 그치지 않고, 직접 개선 방안을 고민하고
+                  실행으로 이어가는 점이 인상적이었습니다.
+                </p>
+                <p class="mt-4">
+                  또한 새로운 로봇이나 업무를 접하는 과정에서도 배우는 것을 두려워하거나 번거롭게 여기지
+                  않고, 항상 적극적인 자세로 학습하시는 모습이 돋보였습니다. 설명을 드릴 때에도 다른
+                  사람들이 쉽게 지나칠 수 있는 부분까지 세심하게 질문하고 확인하시는 경우가 많아, 업무에
+                  대한 높은 관심과 이해도를 느낄 수 있었습니다.
+                </p>
+                <p class="mt-4">
+                  이처럼 빠르게 업무를 파악하고 개선점을 찾아 실행으로 옮기는 추진력과, 새로운 것을
+                  적극적으로 배우고 깊이 있게 이해하려는 자세는 지완님의 큰 강점이라고 생각합니다. 앞으로도
+                  이러한 강점을 바탕으로 팀의 업무 방식과 환경을 더욱 발전시키는 데 큰 기여를 해주실 것으로
+                  기대됩니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">유X관</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 휴머노이드 솔루션 필드 엔지니어 선임</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 이X주 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "로봇 엔지니어로서 하드웨어와 소프트웨어 양쪽 모두에 실력을 갖춘 인재를 찾기란 쉽지
+                  않습니다. 하지만 지완님은 하드웨어 트러블슈팅부터 소프트웨어 이슈 대응까지, 어느 한쪽에
+                  치우치지 않고 기술적 이슈 전반을 커버할 수 있는 몇 안 되는 엔지니어였습니다. 덕분에
+                  현장에서 문제가 생겼다고 연락 받았을 때 여러 담당자를 거칠 필요 없이, 지완님 한 명으로
+                  대부분의 대응이 마무리될 수 있었습니다.
+                </p>
+                <p class="mt-4">
+                  이러한 기술력만큼이나 인상 깊었던 부분은 고객사와의 소통 능력이었습니다. 일부 엔지니어
+                  분들의 경우 종종 기술적 관점에만 머물러 고객이 실제로 무엇을 필요로 하는지를 놓치는
+                  경우가 있는데, 지완님은 항상 고객의 입장에서 먼저 생각하고 문제를 풀어가려는 태도로
+                  임해주었습니다. 그 덕분에 고객사와의 커뮤니케이션이 원활했고, 현장에서의 신뢰도 역시
+                  자연스럽게 쌓였습니다.
+                </p>
+                <p class="mt-4">
+                  영업 담당자 입장에서는 계약이 성사된 이후, 현장에서의 대응을 엔지니어가 어떻게
+                  맡아주느냐에 따라 고객과의 신뢰 관계가 크게 달라집니다. 지완님은 기술적으로도, 그리고
+                  일을 대하는 태도 면에서도 안심하고 맡길 수 있는 엔지니어였고, 그 덕분에 영업 이후의
+                  과정까지 흔들림 없이 이어갈 수 있었습니다.
+                </p>
+                <p class="mt-4">
+                  짧게 만나서 아쉬웠지만 같이 지내는 동안 정말 감사했습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">이X주</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 휴머노이드 솔루션 영업 책임</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 김X주 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "휴머노이드에 대한 기술적 이해가 부족할 팀원에게 조작 방법과 기능을 이해하기 쉽게
+                  설명해 주셨으며, 촬영 과정에서도 필요한 부분을 적극적 지원해 주셔서 원활히 진행할 수
+                  있었습니다.
+                </p>
+                <p class="mt-4">
+                  업무 요청이나 질문에도 항상 친절하고 적극적으로 대응해 주어 마치 고객을 응대하듯
+                  세심하게 지원받는다는 느낌을 받을 정도였습니다. 전문적인 기술 역량뿐만 아니라 타
+                  직군과 원활하게 소통하고 협업하는 역량도 뛰어난 동료라고 생각합니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">김X주</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 마케팅팀 선임</div>
+                </div>
+              </figcaption>
+            </figure>
+
           </div>
         </div>
         <!-- ==================================================== -->
@@ -831,7 +928,7 @@ defmodule PortfolioWeb.HomeLive do
 
 
     <section id="tools" class="mt-16">
-      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">프리미엄</h1><br>r
+      <h1 class="text-7xl text-center md:text-7xl font-extrabold tracking-tight">프리미엄</h1><br>
       <h1 class="text-7xl text-center text-gray-500 md:text-7xl font-extrabold tracking-tight">도구</h1>
 
       <div class="mt-16 space-y-14">
