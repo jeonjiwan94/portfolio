@@ -966,6 +966,52 @@ defmodule PortfolioWeb.HomeLive do
               </figcaption>
             </figure>
 
+            <!-- 송X봉 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "휴머노이드 및 관련 디바이스 업무를 함께 진행하며 고객과 원활하게 소통하는 것은 물론,
+                  동료들과도 적극적으로 의견을 주고받는 팀원이었습니다. 피드백에도 빠르게 대응하고,
+                  주변 동료들이 어려움을 겪고 있는 부분은 없는지 자연스럽게 살피는 모습이 인상적이었습니다.
+                </p>
+                <p class="mt-4">
+                  특히 현장에서 발생하는 다양한 상황에도 내외부 조직과 적극적으로 소통하며 문제를
+                  해결해 나가는 역량이 있었고, 팀에 필요한 개선점이나 더 나은 방향에 대해서도 주저하지
+                  않고 의견을 전달하는 점이 특히 좋았습니다. 단순히 문제를 지적하기보다 팀과 업무
+                  시스템이 더 나아질 수 있도록 고민하는 팀원이었습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">송X봉</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 휴머노이드 CTO</div>
+                </div>
+              </figcaption>
+            </figure>
+
+            <!-- 신X영 -->
+            <figure
+              class="mb-8 break-inside-avoid rounded-2xl bg-gray-50 p-8 text-sm/6 dark:bg-white/5"
+            >
+              <blockquote class="text-gray-900 dark:text-gray-100">
+                <p>
+                  "지완님은 사교적인 성격으로 팀원들과 원활하게 소통하며, 항상 적극적이고 능동적인
+                  태도로 업무에 임하셨습니다. 맡은 일에 대한 책임감이 강하고, 고객사와도 주도적으로
+                  소통하며 문제가 생기면 끝까지 해결하려는 모습이 인상적이었습니다. 주변 팀원들을
+                  적극적으로 도와주셔서 저 역시 많은 도움을 받았고, 덕분에 함께 진행한 업무들을 더욱
+                  원활하게 수행할 수 있었습니다."
+                </p>
+              </blockquote>
+              <figcaption class="mt-6 flex items-center gap-x-4">
+                <div>
+                  <div class="font-semibold text-gray-900 dark:text-white">신X영</div>
+                  <div class="text-gray-600 dark:text-gray-400">(현)빅웨이브로보틱스 휴머노이드 선임</div>
+                </div>
+              </figcaption>
+            </figure>
+
           </div>
         </div>
         <!-- ==================================================== -->
